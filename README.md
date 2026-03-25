@@ -1,4 +1,9 @@
 # 🚀 Bash Admin Scripts
+![Bash](https://img.shields.io/badge/Bash-Scripting-green)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-blue)
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 automação de tarefas administrativas utilizando Bash scripting.
 
@@ -14,6 +19,12 @@ Este projeto tem como objetivo automatizar tarefas comuns de administrações de
 Ideal para praticar fundamentos de Linux, Shell Script e automação - habilidades essenciais para DevOps.
 
 ---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Bash
+- Linux (Ubuntu/Debian)
+- Shell commands (find,tar, apt)
 
 ## 📁 Estrutura do Projeto
 
@@ -52,17 +63,28 @@ Cria um backup compactado da pasta de logs
 Atualiza os pacotes do sistema(Ubuntu/Debian).
 
 ```bash
-./scripts/backup.sh
+./scripts/update_system.sh
+```
+
+---
+## 🎥 Demonstação
+
+Exemplo de execução dos scriots:
+```bash
+.scripts/cleanup_logs.sh
+.scripts/backup.sh
+.scripts/update_system.sh
 ```
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ☁️ Ambiente
 
-- Bash
-- Linux (Ubuntu/Debian)
-- Shell commands (find,tar, apt)
+- AWS EC2(ubuntu)
+- Execução via SSH
+- Scripts testados em ambiente real de servidor
 
+---
 ## 📈 Melhorias Futuras
 
 - Adicinar logs de execução
@@ -70,9 +92,10 @@ Atualiza os pacotes do sistema(Ubuntu/Debian).
 - Agendamento com cron
 - Suporte a múltiplos diretórios
 
+---
 
 ## 👩‍💻 Autora
 
 **Rayane Santana**
 
-Projeto desenvolvido para prática de DevOps e automaççao de sistema.
+Projeto desenvolvido para prática de DevOps e automação de sistema.
